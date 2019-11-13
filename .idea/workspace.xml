@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6720b382-6a6d-4627-b9d7-742e6a79170f" name="Default Changelist" comment="" />
+    <list default="true" id="6720b382-6a6d-4627-b9d7-742e6a79170f" name="Default Changelist" comment="first idea commit and push to github.">
+      <change afterPath="$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alg/binarySearch/tinyT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alg/binarySearch/tinyW.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/alg/sort/SortCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/alg/sort/SortCompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alg/sort/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/sort/SortCompare.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,64 +43,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alg/sort/SortCompare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/StdRandom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="80" column="51" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/DoublingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alg/sort/Insertion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common/Utils.java">
+        <entry file="file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="473">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alg/sort/Selection.java">
+        <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="9396">
+              <caret line="364" selection-start-line="364" selection-end-line="364" />
+              <folding>
+                <element signature="e#10637#10638#0" expanded="true" />
+                <element signature="e#10678#10679#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +100,8 @@
         <option value="$PROJECT_DIR$/src/alg/sort/Shell.java" />
         <option value="$PROJECT_DIR$/src/alg/sort/Selection.java" />
         <option value="$PROJECT_DIR$/src/alg/sort/SortCompare.java" />
+        <option value="$PROJECT_DIR$/out/production/Algorithms/alg/binarySearch/tinyW.txt" />
+        <option value="$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java" />
       </list>
     </option>
   </component>
@@ -147,18 +119,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1400" />
-    <option name="height" value="999" />
+    <option name="x" value="1426" />
+    <option name="width" value="1040" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,19 +141,65 @@
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="alg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="alg" type="462c0819:PsiDirectoryNode" />
+              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="alg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alg" type="462c0819:PsiDirectoryNode" />
+              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +212,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/Algorithms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -212,9 +222,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\IDEA\Algorithms\out\production\Algorithms" />
       <recent name="D:\Project\Algorithms\src\META-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\IDEA\Algorithms\out\production\Algorithms" />
+      <recent name="D:\project\IDEA\Algorithms\src\alg\binarySearch" />
+      <recent name="D:\project\IDEA\Algorithms\out\production\Algorithms\alg\binarySearch" />
+      <recent name="D:\project\IDEA\Algorithms\out\production\Algorithms\alg" />
       <recent name="D:\Project\Algorithms\src\common" />
     </key>
   </component>
@@ -230,7 +245,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoublingTest">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.binarySearch.BinarySearch" />
+      <module name="Algorithms" />
+      <option name="PROGRAM_PARAMETERS" value="tinyW.txt &lt; tinyT.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alg.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoublingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.princeton.cs.algs4.DoublingTest" />
       <extension name="coverage">
@@ -239,13 +268,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.sort.Insertion" />
-      <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,19 +295,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Insertion" />
       <item itemvalue="Application.SortCompare" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Utils" />
       <item itemvalue="Application.DoublingTest" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoublingTest" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SortCompare" />
+        <item itemvalue="Application.DoublingTest" />
         <item itemvalue="Application.Utils" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Insertion" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +324,16 @@
       <workItem from="1560174460016" duration="1908000" />
       <workItem from="1572271962075" duration="1491000" />
       <workItem from="1572450109682" duration="1193000" />
-      <workItem from="1572621298686" duration="3062000" />
+      <workItem from="1572621298686" duration="6209000" />
+      <workItem from="1572962965382" duration="1812000" />
+      <workItem from="1573139800714" duration="69000" />
+      <workItem from="1573139956501" duration="599000" />
+      <workItem from="1573221406579" duration="599000" />
+      <workItem from="1573278544868" duration="765000" />
+      <workItem from="1573310865357" duration="1198000" />
+      <workItem from="1573479261241" duration="6899000" />
+      <workItem from="1573563578384" duration="4776000" />
+      <workItem from="1573657353570" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="first idea commit and push to github.">
       <created>1572795253900</created>
@@ -311,17 +342,23 @@
       <option name="project" value="LOCAL" />
       <updated>1572795253900</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first idea commit and push to github.">
+      <created>1572795839711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572795839711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7654000" />
+    <option name="totallyTimeSpent" value="27829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.14936103" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.16373801" />
       <window_info id="Structure" order="1" sideWeight="0.5017007" side_tool="true" weight="0.21459228" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -331,13 +368,13 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30317461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990878" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32619047" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35396826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936507" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295325" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="11" sideWeight="0.5005365" side_tool="true" weight="0.3295325" />
@@ -345,7 +382,7 @@
       <window_info anchor="bottom" id="JRebel Executor" order="13" sideWeight="0.49946353" weight="0.3295325" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936507" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Statistic" order="16" />
+      <window_info anchor="bottom" id="Statistic" order="16" weight="0.32936507" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,6 +402,82 @@
     <MESSAGE value="first idea commit and push to github." />
     <option name="LAST_COMMIT_MESSAGE" value="first idea commit and push to github." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="StdIn.isEmpty() ==true" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="args" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>StdIn.isEmpty() ==true</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>StdIn.isEmpty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>args</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>whitelist</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Arrays.sort(whitelist)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Arrays.sort([5,7,3])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sort</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Comparable.java" />
     <entry file="file://$PROJECT_DIR$/src/common/In.java" />
@@ -380,13 +493,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/FilterOutputStream.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/Writer.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/alg/sort/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/alg/sort/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -411,6 +517,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/StdRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="80" column="51" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/DoublingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Algorithms/alg/tinyW.txt" />
+    <entry file="file://$PROJECT_DIR$/src/alg/sort/SortCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alg/binarySearch/tinyW.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/alg/sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -418,12 +552,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/alg/sort/SortCompare.java">
+    <entry file="file://$PROJECT_DIR$/src/alg/sort/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="81">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alg/sort/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -435,35 +585,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/DoublingTest.java">
+    <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/In.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="1173">
+          <caret line="195" column="18" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/StdRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="80" column="51" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/alg/sort/Insertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Utils.java">
+    <entry file="file://$PROJECT_DIR$/out/production/Algorithms/tinyW.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/java/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Algorithms/tinyT.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jars/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9396">
+          <caret line="364" selection-start-line="364" selection-end-line="364" />
+          <folding>
+            <element signature="e#10637#10638#0" expanded="true" />
+            <element signature="e#10678#10679#0" expanded="true" />
           </folding>
         </state>
       </provider>
