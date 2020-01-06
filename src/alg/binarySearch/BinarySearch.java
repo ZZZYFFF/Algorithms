@@ -25,6 +25,7 @@ public class BinarySearch {
 //        System.out.println(System.getProperty("user.dir"));
 //        System.out.println(file.length() + String.valueOf(file.exists()));
 
+        //TODO 测试总是通不过。。。
         System.out.println("args[0]: "+args[0]);
         System.out.println("args[1]: "+args[1]);
         System.out.println("args[2]: "+args[2]);

@@ -6,12 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6720b382-6a6d-4627-b9d7-742e6a79170f" name="Default Changelist" comment="first idea commit and push to github.">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alg/binarySearch/tinyT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tinyT.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alg/binarySearch/tinyW.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tinyW.txt" afterDir="false" />
+=======
+    <list default="true" id="6720b382-6a6d-4627-b9d7-742e6a79170f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/common/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/common/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Utils.java" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,23 +65,27 @@
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1426" />
     <option name="width" value="1040" />
     <option name="height" value="1407" />
   </component>
+=======
+  <component name="ProjectId" id="1Tk2dHSsgMjAKwNKYM9N3Ywjl7b" />
+>>>>>>> origin/master
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/Algorithms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Learn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -102,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.SortCompare">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alg.binarySearch.BinarySearch" />
       <module name="Algorithms" />
@@ -160,8 +171,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SortCompare" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.DoublingTest" />
         <item itemvalue="Application.Utils" />
         <item itemvalue="Application.Test" />
@@ -190,7 +201,26 @@
       <workItem from="1573310865357" duration="1198000" />
       <workItem from="1573479261241" duration="6899000" />
       <workItem from="1573563578384" duration="4776000" />
-      <workItem from="1573657353570" duration="311000" />
+      <workItem from="1573657353570" duration="2954000" />
+      <workItem from="1573660454248" duration="1691000" />
+      <workItem from="1573742475558" duration="151000" />
+      <workItem from="1573742638768" duration="148000" />
+      <workItem from="1573742797890" duration="171000" />
+      <workItem from="1573743008596" duration="142000" />
+      <workItem from="1573743161820" duration="628000" />
+      <workItem from="1573743811985" duration="1439000" />
+      <workItem from="1573745264065" duration="1276000" />
+      <workItem from="1573746710055" duration="627000" />
+      <workItem from="1573989643041" duration="65000" />
+      <workItem from="1573989863493" duration="1242000" />
+      <workItem from="1574091640456" duration="247000" />
+      <workItem from="1574258589648" duration="1740000" />
+      <workItem from="1574351425117" duration="36000" />
+      <workItem from="1574517645699" duration="607000" />
+      <workItem from="1574598807886" duration="2621000" />
+      <workItem from="1575899903469" duration="599000" />
+      <workItem from="1576294550288" duration="181000" />
+      <workItem from="1578320372929" duration="936000" />
     </task>
     <task id="LOCAL-00001" summary="first idea commit and push to github.">
       <created>1572795253900</created>
@@ -206,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572795839711</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add BinarySearch">
+      <created>1573657698110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573657698110</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add BinarySearch">
+      <created>1573657964322</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573657964322</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +261,13 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State />
+=======
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+>>>>>>> origin/master
           </value>
         </entry>
       </map>
@@ -225,10 +275,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first idea commit and push to github." />
-    <option name="LAST_COMMIT_MESSAGE" value="first idea commit and push to github." />
+    <MESSAGE value="add BinarySearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BinarySearch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< HEAD
+=======
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="StdIn.isEmpty() ==true" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/alg/binarySearch/BinarySearch.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+>>>>>>> origin/master
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>

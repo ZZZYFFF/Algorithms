@@ -1,9 +1,5 @@
 package common;
 
-import edu.princeton.cs.algs4.Out;
-import edu.princeton.cs.algs4.StdOut;
-
-import java.util.Scanner;
 
 /**
  * 排序算法类模板
@@ -28,7 +24,6 @@ public class Utils {
                 System.out.print(a[i]);
             }
         }
-        System.out.println("---------------------------");
     }
 
     public static boolean isSorted(Comparable[] a){
