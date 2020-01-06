@@ -21,13 +21,16 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
+//        File file = new File("tinyW.txt");
+//        System.out.println(System.getProperty("user.dir"));
+//        System.out.println(file.length() + String.valueOf(file.exists()));
 
         System.out.println("args[0]: "+args[0]);
         System.out.println("args[1]: "+args[1]);
         System.out.println("args[2]: "+args[2]);
         int[] whitelist = In.readInts(args[0]);
         Arrays.sort(whitelist);
-//        System.out.println(StdIn.isEmpty());
+        System.out.println(StdIn.isEmpty());
         int sss = StdIn.readInt();
         System.out.println("sss: "+sss);
         while (!StdIn.isEmpty()){
