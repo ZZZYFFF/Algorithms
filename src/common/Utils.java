@@ -40,8 +40,7 @@ public class Utils {
         while(true){
             System.out.println(i+1);
             i+=1;
-            Thread t =new Thread(
-            );
+            Thread t =new Thread();
             t.start();
 //            t.sleep();
         }
