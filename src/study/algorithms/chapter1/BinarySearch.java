@@ -12,13 +12,13 @@ import java.util.Arrays;
  * 运行方法：进入out/production/Algorithms目录，将algs4.jar下的文件夹拷到此目录下。
  * idea的参数貌似不能使用 < (重定向)
  * 执行如下命令
- *   java -classpath . study.algorithms.chapter1.BinarySearch tinyW.txt < tinyT.txt
- *
+ * java -classpath . study.algorithms.chapter1.BinarySearch tinyW.txt < tinyT.txt
  */
 public class BinarySearch {
     public static void main(String[] args) {
         int[] whiteList = In.readInts(args[0]);
         Arrays.sort(whiteList);
+        long start = System.currentTimeMillis();
         while (!StdIn.isEmpty()) {
             //读取的键，如果不存在白名单中则将其打印
             int key = StdIn.readInt();
@@ -26,12 +26,14 @@ public class BinarySearch {
                 StdOut.println(key);
             }
         }
+        long end = System.currentTimeMillis();
+        double time = (end - start) / 1000D;
+        System.out.println("总共用时： " + time +" 秒");
     }
 
     /**
-     *
      * @param key 要查找的数字
-     * @param a 包含的数组
+     * @param a   包含的数组
      * @return -1没找到，负责返回数字在数组中的下标
      */
     public static int rank(int key, int[] a) {
