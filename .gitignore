@@ -1,5 +1,8 @@
 tinyW.txt
 tinyT.txt
-.idea/*
+.idea
+.idea/
+
 out
 Algorithms.iml
+src/alg
