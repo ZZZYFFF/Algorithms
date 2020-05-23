@@ -14,24 +14,23 @@ public class StaticSetOfInts {
 
     public StaticSetOfInts(int[] keys) {
         a = new int[keys.length];
-        for (int i = 0;i<keys.length;i++){
+        for (int i = 0; i < keys.length; i++) {
             a[i] = keys[i];
         }
         Arrays.sort(a);
     }
 
-    public boolean contains(int key){
-        return rank(key) !=-1;
+    public boolean contains(int key) {
+        return rank(key) != -1;
     }
 
     /**
-     *
      * 二分查找
      */
     private int rank(int key) {
         int lo = 0;
-        int hi = a.length-1;
-        while (lo<=hi){
+        int hi = a.length - 1;
+        while (lo <= hi) {
             int mid = lo + (hi - lo) / 2;
             if (key < a[mid]) {
                 hi = mid - 1;
