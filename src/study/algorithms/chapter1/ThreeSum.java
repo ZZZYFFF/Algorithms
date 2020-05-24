@@ -4,6 +4,8 @@ import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
+ * 统计文件中和为0的三整数元组的数量
+ *
  * @author zyf
  */
 public class ThreeSum {
