@@ -7,7 +7,6 @@ import edu.princeton.cs.algs4.*;
  */
 public class TestInterval2D {
     /**
-     *
      * @param args .2 .5 .5 .8 10000
      */
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class TestInterval2D {
         double xhi = Double.parseDouble(args[1]);
         double ylo = Double.parseDouble(args[2]);
         double yhi = Double.parseDouble(args[3]);
-        int T = Integer.parseInt(args[4]);
+        int t = Integer.parseInt(args[4]);
 
         Interval1D xInterval = new Interval1D(xlo, xhi);
         Interval1D yInterval = new Interval1D(ylo, yhi);
@@ -23,13 +22,13 @@ public class TestInterval2D {
         box.draw();
 
         Counter c = new Counter("hits");
-        for (int t = 0;t<T;t++){
+        for (int i = 0; i < t; i++) {
             double x = Math.random();
             double y = Math.random();
             Point2D p = new Point2D(x, y);
-            if (box.contains(p)){
+            if (box.contains(p)) {
                 c.increment();
-            }else {
+            } else {
                 p.draw();
             }
         }
