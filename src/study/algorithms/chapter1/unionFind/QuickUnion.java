@@ -4,13 +4,13 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
- * quick-find算法 (N+3)(N-1)~N^2 平方级别
+ * quick-union算法 (N+3)(N-1)~N^2 平方级别
  * 进入编译后的文件夹，执行：
  * java -classpath . study.algorithms.chapter1.unionFind.QuickFind < tinyUF.txt
  *
  * @author zyf
  */
-public class QuickFind {
+public class QuickUnion {
     /**
      * 分量id
      */
@@ -25,7 +25,7 @@ public class QuickFind {
      *
      * @param n 触点数量
      */
-    public QuickFind(int n) {
+    public QuickUnion(int n) {
         count = n;
         id = new int[n];
         for (int i = 0; i < n; i++) {
@@ -48,7 +48,10 @@ public class QuickFind {
      * @return
      */
     public int find(int p) {
-        return id[p];
+        while (p != id[p]) {
+            p = id[p];
+        }
+        return p;
     }
 
     ;
@@ -60,23 +63,18 @@ public class QuickFind {
      * @param q 触点2
      */
     public void union(int p, int q) {
-        int pId = find(p);
-        int qId = find(q);
-        //pq已经在相同分量中不采取任何行动
-        if (pId == qId) {
+        //将pq的根节点统一
+        int pRoot = find(p);
+        int qRoot = find(q);
+        if (pRoot == qRoot) {
             return;
         }
-        //将p的分量重命名为q的名称
-        for (int i = 0; i < id.length; i++) {
-            if (id[i] == pId) {
-                id[i] = qId;
-            }
-        }
+        id[pRoot] = qRoot;
         count--;
     }
 
     /**
-     * largeUF.txt --> 共耗时: 674192
+     * largeUF.txt --> 共耗时: 666636
      *
      * @param args < file
      */
@@ -97,5 +95,4 @@ public class QuickFind {
         StdOut.println(unionFind.count() + " components");
         System.out.println("---------共耗时: " + (end - start));
     }
-
 }
