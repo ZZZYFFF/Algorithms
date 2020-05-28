@@ -89,7 +89,7 @@ public class QuickUnion {
                 continue;
             }
             unionFind.union(p, q);
-            StdOut.println(p + "<->" + q);
+            StdOut.println(p + "-->" + q);
         }
         long end = System.currentTimeMillis();
         StdOut.println(unionFind.count() + " components");
