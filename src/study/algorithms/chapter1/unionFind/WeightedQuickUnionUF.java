@@ -1,20 +1,25 @@
 package study.algorithms.chapter1.unionFind;
 
+
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
- * quick-union算法 3+5+7+...+(2N-1)~N^2 平方级别
+ * quick-union算法
  * 进入编译后的文件夹，执行：
- * java -classpath . study.algorithms.chapter1.unionFind.QuickFind < tinyUF.txt
+ * java -classpath . study.algorithms.chapter1.unionFind.WeightedQuickUnionUF < tinyUF.txt
  *
  * @author zyf
  */
-public class QuickUnion {
+public class WeightedQuickUnionUF {
     /**
      * 分量id
      */
     private int[] id;
+    /**
+     * 各个分节点对应分量的大小
+     */
+    private int[] sz;
     /**
      * 分量数量
      */
@@ -25,11 +30,15 @@ public class QuickUnion {
      *
      * @param n 触点数量
      */
-    public QuickUnion(int n) {
+    public WeightedQuickUnionUF(int n) {
         count = n;
         id = new int[n];
         for (int i = 0; i < n; i++) {
             id[i] = i;
+        }
+        sz = new int[n];
+        for (int i = 0; i < n; i++) {
+            sz[i] = 1;
         }
     }
 
@@ -42,10 +51,8 @@ public class QuickUnion {
     }
 
     /**
-     * p所在分量的标识符
-     *
      * @param p 触点
-     * @return
+     * @return p所在分量的标识符
      */
     public int find(int p) {
         while (p != id[p]) {
@@ -53,8 +60,6 @@ public class QuickUnion {
         }
         return p;
     }
-
-    ;
 
     /**
      * 在pq之间添加一条连接
@@ -64,12 +69,19 @@ public class QuickUnion {
      */
     public void union(int p, int q) {
         //将pq的根节点统一
-        int pRoot = find(p);
-        int qRoot = find(q);
-        if (pRoot == qRoot) {
+        int i = find(p);
+        int j = find(q);
+        if (i == j) {
             return;
         }
-        id[pRoot] = qRoot;
+        //将小树的根节点连接到大树的根节点
+        if (sz[i] < sz[j]) {
+            id[i] = j;
+            sz[j] += sz[i];
+        }else {
+            id[j] = i;
+            sz[i] +=sz[j];
+        }
         count--;
     }
 
