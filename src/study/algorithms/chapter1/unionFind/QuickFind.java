@@ -45,7 +45,7 @@ public class QuickFind {
      * p所在分量的标识符
      *
      * @param p 触点
-     * @return
+     * @return p的分量
      */
     public int find(int p) {
         return id[p];

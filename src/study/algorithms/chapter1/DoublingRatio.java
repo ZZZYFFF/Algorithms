@@ -18,7 +18,9 @@ public class DoublingRatio {
             a[i] = StdRandom.uniform(-max, max);
         }
         Stopwatch timer = new Stopwatch();
-//        ThreeSum.count(a);
+        /*
+         * ThreeSum.count(a)
+         */
         ThreeSumFast.count(a);
         return timer.elapsedTime();
     }
@@ -28,8 +30,8 @@ public class DoublingRatio {
         int n = 250;
         while (true) {
             double time = timeTrial(n);
-            StdOut.printf("%6d %7f ",n,time);
-            StdOut.printf("%5.1f\n",time/prev);
+            StdOut.printf("%6d %7f ", n, time);
+            StdOut.printf("%5.1f\n", time / prev);
             n += n;
             prev = time;
         }

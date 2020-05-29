@@ -28,7 +28,7 @@ public class BinarySearch {
         }
         long end = System.currentTimeMillis();
         double time = (end - start) / 1000D;
-        System.out.println("总共用时： " + time +" 秒");
+        System.out.println("总共用时： " + time + " 秒");
     }
 
     /**
