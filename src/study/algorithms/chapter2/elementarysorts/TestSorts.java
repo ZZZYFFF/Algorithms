@@ -10,7 +10,7 @@ import edu.princeton.cs.algs4.In;
  */
 public class TestSorts {
     public static void main(String[] args) {
-        String[] a = In.readStrings();
+        String[] a =new In().readAllStrings();
         Sort sort = new Selection();
         sort.sort(a);
         assert Sort.isSorted(a);
